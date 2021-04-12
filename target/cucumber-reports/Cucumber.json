@@ -1,0 +1,36 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-12T09:49:23.759Z",
+        "line": 3,
+        "name": "Verify Fresenius user is able to login succesfully",
+        "description": "",
+        "id": "fresenius-device-statistics;verify-fresenius-user-is-able-to-login-succesfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22641000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User logged in to fresenius URL",
+            "match": {
+              "location": "hellocucumber.StepDefinitions.user_logged_in_to_fresenius_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Fresenius Device Statistics",
+    "description": "",
+    "id": "fresenius-device-statistics",
+    "keyword": "Feature",
+    "uri": "classpath:features/Fresenius_Stats.feature",
+    "tags": []
+  }
+]
